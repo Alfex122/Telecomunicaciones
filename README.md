@@ -48,3 +48,10 @@
     6.4 Laser
     6.5 Transmisores y receptores ópticos
     6.6 Comunicación por infrarrojo
+
+
+## //Actividad 2.2 | señal analógica y señal digital 
+* Señal analógica; Es una señal que varia de forma continua a travez del espacio.
+* Señal digital; Presenta variaciones discontinuas con el tiempo y solo puede tomar valores booleanos.
+
+La principal diferencia es que la señal digital solo toma dos valores y la analógica toma valores infinitos.
