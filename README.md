@@ -55,3 +55,16 @@
 * Señal digital; Presenta variaciones discontinuas con el tiempo y solo puede tomar valores booleanos.
 
 La principal diferencia es que la señal digital solo toma dos valores y la analógica toma valores infinitos.
+
+
+## //Actividad 2.3 | Diferencia de AM y FM
+* AM
+  * Produce demasiado ruido
+  * La amplitud de las ondas es mayor
+  * Ancho de banda inferior a los 10KHz
+* FM
+  * Fidelidad al sonido original
+  * Produce menos ruido
+  * Ancho de banda superior a los 20 KHz
+
+La principal diferencia es el ancho de banda y los costos de equipo de retransmisión
