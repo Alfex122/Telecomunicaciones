@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Heroes · Bootstrap v5.0</title>
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="heroes.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+  <h1 class="visually-hidden">Heroes examples</h1>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="./Image/Instalacion.png" alt="" width="72" height="57">
+    <h1 class="display-5 fw-bold">Instalación</h1>
+    <div class="col-lg-6 mx-auto">
+      <h3> Tendidos de fibra optica aprovechando una canalización existente</h3>
+
+        <p class="lead">En este tipo de instalación se utilizan las canalizaciones existentes en el area en donde se valla a instalar la fibra optica, esto se hace con el fin de aprovechar lo mas posible la insraestructura ya hecha </p>
+        
+        <p> Ventajas: este tipo de tendido es más rápido y necesita menos tramitación en cuanto a permisos de obras. También es más económico que la obra civil convencional. La instalación tiene menos costes de mantenimiento gracias a que los cables van protegidos bajo tierra.</p>
+        
+        <p>Desventajas: Despliegue condicionado a la ubicación de las redes existentes, tiempos espera prolongados para tramitar o recibir respuesta de la operadora propietaria de la canalización. Costes adicionales del servicio en concepto de alquiler del espacio utilizado.</p>
+    </div>
+    <img src="./Image/Canalizacion.jpeg" alt="">
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <div class="col-lg-6 mx-auto">
+      <h3>Tendidos de fibra óptica en postes (tendidos aéreos)</h3>
+      <p class="lead">Los tendidos aéreos son aquellos cuya instalación del cable se sostiene sobre postes de telecomunicaciones o postes eléctricos. Se suelen usar en zonas rurales y zonas industriales.</p>
+        
+        <p>Ventajas: Su instalación suele ser más rápida y económica.</p>
+        
+        <p>Desventajas: La instalación requiere de un cable especialmente diseñado para soportar a la intemperie, por tanto tenemos un sobre coste importante en la partida de materiales. En caso de no disponer de postes, hay que añadir los costes de materiales, los postes de madera, colocación y mano de obra. Es una instalación muy vulnerable y expuesta a posibles manipulaciones y roturas. Son necesarios permisos especiales y personal capacitado para trabajos en altura.</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="./Image/Aereo.jpeg" class="img-fluid border rounded-3 shadow-lg mb-4" >
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./Image/Fachada.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Tendidos de fibra óptica por fachada</h1>
+        <p class="lead">Consiste en ir colocando el cable de fibra óptica de fachada en fachada grapado a las paredes exteriores de los edificios. Este método es apto para zonas urbanas con alta concentración de edificación.</p>
+          
+          <p>Ventajas: Es el método más rápido, sencillo y económico para realizar los tendidos de fibra óptica.</p>
+          
+          <p>Desventajas: Requiere los permisos de los propietarios o de la comunidad de vecinos para poder grapar el cable por la fachada. La instalación requiere de un cable especialmente diseñado para soportar a la intemperie y robos, por tanto tenemos un sobre coste importante en la partida de materiales. Fuerte impacto visual negativo.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="bg-dark text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">Normas</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">El cable de fibra óptica debe presentar continuidad eléctrica en su armadura y en el núcleo de tracción si es metálico. La armadura y el núcleo de tracción metálico no debe presentar contacto entre ellos.  (<i>Norma Oficial Mexicana NOM-028-SCT1-1993.</i>)</p>
+        <p class="fs-5 mb-4">La fibra óptica debe de tener las siguentes especificaciones: multimodo de 62.5/125 &µm y 50/125 &µm, y monomodo. Se especifica un ancho de banda de 160/500 MHz. Km para la fibra de 62.5/125 &µm y de 500/500 MHz. Km para la fibra de 50/125 &µm, y atenuación de 3.5/1.5 dB/Km para los largos de onda de 850/1300 nm en ambos casos respectivamente.(<i>ANSI/TIA/EIA-568-B.3-2000.</i>)</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" onclick="Regresar()">Regresar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider mb-0"></div>
+</main>
+
+<script>
+  function Regresar() {
+      // Abrir una nueva página para realizar la compra
+      window.open(' file:///C:/Users/alfex/OneDrive/Documentos/Telecomunicaciones/Fibra optica/carousel/index.html');
+      close();
+  }
+</script>
+      
+  </body>
+</html>

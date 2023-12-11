@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Fibra Óptica · Menú</title>
+    <!-- Bootstrap core CSS -->
+<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Fibra Optica</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Alexis David Zambrano</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Telecomunicaciones</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+    
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="./Image//Historia.png" alt="" width="200" height="200">
+        <h2>Historia</h2>
+        <p>Historia de la invencion de la fibra optica.</p>
+        <p><a class="btn btn-secondary" href="#" onclick="Historia()">Leer</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./Image/Tipos.png" alt="" width="200" height="200">
+
+
+        <h2>Tipos de Fibra optica</h2>
+        <p>Existen distintos tipos de fibra optica con distintas caracteristicas.</p>
+        <p>las fibras se identifican por los diámetros de su núcleo y de su revestimiento (cladding) expresados en micrones (la mil millonésima parte de un metro).</p>
+        <p><a class="btn btn-secondary" href="#" onclick="TiposFO()"> Leer &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./Image/Instalacion.png" alt="" width="200" height="200">
+
+        <h2>Instalacion</h2>
+        <p>El modo de Instalacion adecuado para la fibra optica junto con las normas que se deben acatar y caracteristicas tecnicas.</p>
+        <p><a class="btn btn-secondary" href="#" onclick="Instalacion()">Leer &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Monomodo VS Multimodo. <span class="text-muted">Diferencias.</span></h2>
+        <p class="lead">Una pequeña tabla comparativa entre multimodo y monomodo.</p>
+        <p><a class="btn btn-secondary" href="#" onclick="Versus()"> Leer &raquo;</a></p>
+      </div>
+      <div class="col-md-5">
+        <img src="./Image/Versus.png" alt="" width="400" height="400">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">La Fibra óptica con la invención de la red 6G. <span class="text-muted">El futuro de las comunicaciones.</span></h2>
+        <p class="lead">La adaptación de la fibra óptica con las nuevas tecnologias y la importancia de sus aplicaciones.</p>
+        <p><a class="btn btn-secondary" href="#" onclick="Red_6G()"> Leer &raquo;</a></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="./Image/6G.jpeg" alt="" width="400" height="400">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Conclusión.</h2>
+        <p class="lead">Las tecnologias evolucionan de manera rapida y algunas de ellas se adaptan o se emplean en las nuevas, esto abre posibilidades quitando las barreras que se han presentado desde la antiguedad.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="./Image/Batman.svg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p>Alexis David Zambrano Ibarra</p>
+    <p>Instituto Tecnologico de Pabellón de Arteaga</p>
+  </footer>
+</main>
+<script>
+  function Historia() {
+      // Abrir una nueva página para realizar la compra
+      window.open(' file:///C:/Users/alfex/OneDrive/Documentos/Telecomunicaciones/Fibra optica/carousel/index-Historia.html');
+      close();
+  }
+  function TiposFO() {
+      // Abrir una nueva página para realizar la compra
+      window.open(' file:///C:/Users/alfex/OneDrive/Documentos/Telecomunicaciones/Fibra optica/carousel/index-Tipos.html');
+      close();
+  }
+  function Instalacion() {
+      // Abrir una nueva página para realizar la compra
+      window.open(' file:///C:/Users/alfex/OneDrive/Documentos/Telecomunicaciones/Fibra optica/carousel/index-Instalacion.html');
+      close()
+  }
+  function Versus() {
+    // Abrir una nueva página para realizar la compra
+    window.open(' file:///C:/Users/alfex/OneDrive/Documentos/Telecomunicaciones/Fibra optica/carousel/index-Versus.html');
+    close();
+  }
+  function Red_6G(){
+    // Abrir una nueva página para realizar la compra
+    window.open(' file:///C:/Users/alfex/OneDrive/Documentos/Telecomunicaciones/Fibra optica/carousel/index-Futuro.html');
+    close();
+  }
+</script>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
